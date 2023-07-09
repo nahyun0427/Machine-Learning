@@ -1,6 +1,7 @@
 # Machine-Learning
 Recommend system
-1. Dataset
+
+### 1. Dataset
 'googleplaystore.csv' file of "https://www.kaggle.com/datasets/lava18/google-play-store-apps"
 ; explanation ; details of the applications on Google Play(2019)
 This information is scraped from the Google Play Store.
@@ -27,7 +28,8 @@ X는 주(主, Major)버전 번호이고, Y는 부(部, Minor)버전 번호이며
 
 
 ### 2. Objectives of analysis
-**Main objectives**: Find out which categories were popular in the year and recommend apps based on them.**Sub objectives**: 
+**Main objectives**: Find out which categories were popular in the year and recommend apps based on them.
+**Sub objectives**: 
 1. Find out what properties popular applications have.
 2. Find out the correlation between Rating, Review count, and Install count.(Because it is difficult to evaluate apps only with Rating.)
 3. Afterwards, popular apps such as "Category", "Age", and "Paid/Free" are recommended based on the measured "Popularity" criteria.
